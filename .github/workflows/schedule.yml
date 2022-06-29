@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: jshim0978/productive-box@master
         env:
-          GH_TOKEN: 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	
+          GH_TOKEN: ${{ secrets.productive-box }}	
           GIST_ID: 5ba63bfd6fbb255f838fec68c223d17e
           TIMEZONE: Asia/Taipei
